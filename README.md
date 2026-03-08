@@ -7,7 +7,9 @@ This repository serves as an archive of my completed and legacy projects.
 
 ---
 
-🚀 Projects Included
+🚀 **Projects Included**
+>[!NOTE]
+> New file included
 
 🐦 Flappy Bird (Python + Pygame)
 
