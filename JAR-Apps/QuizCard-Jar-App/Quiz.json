@@ -1,0 +1,166 @@
+{
+  "Quiz": [
+    {
+      "type": "singleSelect",
+      "Question": "Which normal form eliminates transitive dependency?",
+      "Options": ["1NF", "2NF", "3NF", "BCNF"],
+      "Answer": [2],
+      "Explanation": "3NF removes transitive dependencies, ensuring non-key attributes depend only on the primary key.",
+      "Hint": "Think of dependencies between non-key attributes."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "In ER modeling, a weak entity must have:",
+      "Options": ["A composite key", "A foreign key", "A partial key and owner entity", "A derived attribute"],
+      "Answer": [2],
+      "Explanation": "Weak entities depend on strong entities and are identified by a partial key plus the owner's key.",
+      "Hint": "It cannot exist without a strong entity."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL clause is used to group rows sharing a property?",
+      "Options": ["ORDER BY", "GROUP BY", "HAVING", "WHERE"],
+      "Answer": [1],
+      "Explanation": "GROUP BY groups rows based on column values, often used with aggregate functions.",
+      "Hint": "It’s often paired with COUNT or SUM."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which ACID property ensures that transactions do not interfere with each other?",
+      "Options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+      "Answer": [2],
+      "Explanation": "Isolation ensures concurrent transactions execute as if they were sequential.",
+      "Hint": "Think of parallel transactions."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which join returns all rows from both tables, matching where possible?",
+      "Options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+      "Answer": [3],
+      "Explanation": "FULL OUTER JOIN returns all rows from both tables, with NULLs where no match exists.",
+      "Hint": "It’s the most inclusive join."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "In relational algebra, the SELECT operation corresponds to:",
+      "Options": ["Projection", "Restriction", "Union", "Join"],
+      "Answer": [1],
+      "Explanation": "SELECT (σ) filters rows based on conditions, also called restriction.",
+      "Hint": "It reduces rows, not columns."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which indexing method is commonly used in RDBMS for fast searches?",
+      "Options": ["Hashing", "B-tree", "Linked List", "Heap"],
+      "Answer": [1],
+      "Explanation": "B-tree indexes are widely used for efficient range queries and lookups.",
+      "Hint": "Think of balanced trees."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL keyword is used to remove a table completely?",
+      "Options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+      "Answer": [1],
+      "Explanation": "DROP TABLE removes the table definition and all its data.",
+      "Hint": "It deletes both structure and data."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which ER attribute type is represented by a dashed oval?",
+      "Options": ["Composite", "Derived", "Multivalued", "Simple"],
+      "Answer": [1],
+      "Explanation": "Derived attributes are shown with dashed ovals, e.g., Age derived from DOB.",
+      "Hint": "It’s calculated from other attributes."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which normal form requires every determinant to be a candidate key?",
+      "Options": ["2NF", "3NF", "BCNF", "4NF"],
+      "Answer": [2],
+      "Explanation": "BCNF strengthens 3NF by requiring every determinant to be a candidate key.",
+      "Hint": "It’s stricter than 3NF."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL clause filters groups after aggregation?",
+      "Options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+      "Answer": [1],
+      "Explanation": "HAVING filters groups formed by GROUP BY, unlike WHERE which filters rows.",
+      "Hint": "It works after GROUP BY."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which relationship type is represented by a line with 'o' at one end in ER diagrams?",
+      "Options": ["One-to-One", "One-to-Many", "Many-to-One", "Many-to-Many"],
+      "Answer": [1],
+      "Explanation": "One-to-Many is shown with | at one end and o at the other.",
+      "Hint": "Department to Students is an example."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL command is used to change existing data in a table?",
+      "Options": ["INSERT", "UPDATE", "ALTER", "MODIFY"],
+      "Answer": [1],
+      "Explanation": "UPDATE modifies existing rows in a table.",
+      "Hint": "It’s used with SET clause."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which type of dependency violates 2NF?",
+      "Options": ["Partial dependency", "Transitive dependency", "Functional dependency", "Multivalued dependency"],
+      "Answer": [0],
+      "Explanation": "2NF removes partial dependency, where non-key attributes depend on part of a composite key.",
+      "Hint": "It occurs with composite keys."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL keyword is used to rename a column or table in a query?",
+      "Options": ["AS", "RENAME", "ALTER", "MODIFY"],
+      "Answer": [0],
+      "Explanation": "AS is used to create an alias for columns or tables in SQL queries.",
+      "Hint": "It’s often used in SELECT statements."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which ER diagram symbol represents a weak relationship?",
+      "Options": ["Double diamond", "Dashed oval", "Double rectangle", "Single rectangle"],
+      "Answer": [0],
+      "Explanation": "Weak relationships are shown with double diamonds in ER diagrams.",
+      "Hint": "It’s similar to weak entities but for relationships."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL command removes all rows but keeps the table structure?",
+      "Options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+      "Answer": [2],
+      "Explanation": "TRUNCATE deletes all rows quickly but retains the table definition.",
+      "Hint": "It’s faster than DELETE."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which relational algebra operation combines tuples from two relations based on a condition?",
+      "Options": ["Union", "Join", "Projection", "Selection"],
+      "Answer": [1],
+      "Explanation": "Join combines tuples from two relations based on common attributes.",
+      "Hint": "Think of SQL JOIN."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL keyword is used to ensure no duplicate rows in query results?",
+      "Options": ["DISTINCT", "UNIQUE", "CHECK", "PRIMARY"],
+      "Answer": [0],
+      "Explanation": "DISTINCT removes duplicate rows in query results.",
+      "Hint": "It’s used in SELECT queries."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which normal form deals with multivalued dependencies?",
+      "Options": ["2NF", "3NF", "BCNF", "4NF"],
+      "Answer": [3],
+      "Explanation": "4NF eliminates multivalued dependencies, ensuring no attribute has multiple independent values.",
+      "Hint": "It’s beyond BCNF."
+    }
+  ],
+  "Title": "Advanced DBMS Quiz Card",
+  "Type": "quiz"
+}

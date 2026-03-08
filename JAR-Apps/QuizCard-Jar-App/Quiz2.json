@@ -1,0 +1,46 @@
+{
+  "Quiz": [
+    {
+      "type": "singleSelect",
+      "Question": "Which of the following is a property of the Physical Level in DBMS architecture?",
+      "Options": ["Entities and relationships", "Indexes and file storage", "User views", "Constraints and rules"],
+      "Answer": [1],
+      "Explanation": "The Physical Level deals with how data is stored on disk, including indexes and file structures.",
+      "Hint": "Think about hardware and storage details."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which SQL keyword is used to combine rows from two tables based on a related column?",
+      "Options": ["JOIN", "GROUP BY", "UNION", "SELECT"],
+      "Answer": [0],
+      "Explanation": "JOIN combines rows from two tables using a common column, such as a foreign key.",
+      "Hint": "It’s the backbone of relational queries."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which normal form removes partial dependency?",
+      "Options": ["1NF", "2NF", "3NF", "BCNF"],
+      "Answer": [1],
+      "Explanation": "2NF eliminates partial dependency, ensuring non-key attributes depend on the whole primary key.",
+      "Hint": "It applies when you have composite keys."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "In ER diagrams, which symbol represents a multivalued attribute?",
+      "Options": ["Single oval", "Double oval", "Dashed oval", "Rectangle"],
+      "Answer": [1],
+      "Explanation": "Multivalued attributes are shown with double ovals, e.g., multiple phone numbers.",
+      "Hint": "Think of attributes that can store more than one value."
+    },
+    {
+      "type": "singleSelect",
+      "Question": "Which ACID property ensures that either all operations of a transaction are completed or none?",
+      "Options": ["Consistency", "Atomicity", "Isolation", "Durability"],
+      "Answer": [1],
+      "Explanation": "Atomicity ensures that a transaction is indivisible — it either fully happens or doesn’t happen at all.",
+      "Hint": "Think of 'all or nothing'."
+    }
+  ],
+  "Title": "DBMS Practice Quiz",
+  "Type": "quiz"
+}
