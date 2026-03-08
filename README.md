@@ -8,7 +8,7 @@ This repository serves as an archive of my completed and legacy projects.
 ---
 
 ### 🚀 Projects Included
->[!NOTE] update-08/03/2026
+>[!NOTE]
 > New folder named JAR-Apps include with fun projects file
 > There is a readme include for how to run them
 > This projects use technologies mainly Java and it's libraries JavaSwing
