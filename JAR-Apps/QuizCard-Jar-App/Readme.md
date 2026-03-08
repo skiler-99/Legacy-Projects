@@ -1,7 +1,7 @@
 ## About QuizCard
 ---
 
-- This is .jar file that you can run it via your terminal and command prompt.
+- This is a .jar file that you can run it via your terminal and command prompt.
 - This app built using java and java swing
 
 ---
