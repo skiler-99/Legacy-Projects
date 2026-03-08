@@ -2,7 +2,7 @@
 ---
 
 - This is a .jar file that you can run it via your terminal and command prompt.
-- This app built using java and java swing
+- This app built using ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Java Swing](https://img.shields.io/badge/Java_Swing-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
 ---
 
